@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TuniTravel</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Tuni<span>Travel</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+
+
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1 style="margin-top: 30px;">Leave Your Footprints</h1>
+                    <p>“With age, comes wisdom. With travel, comes understanding.”</p>
+                    <p style="margin-left: 550px; line-height:0px;margin-bottom:90px">- Sandra Lake</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+       
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about some places before your travel</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/tozeur.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tozeur, Tunisia
+                            </span>
+                            <div>
+                                <p class = "text">Découvrez les oasis verdoyantes, les dunes de sable doré et l'architecture traditionnelle de Tozeur, une ville pittoresque du sud-ouest tunisien.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/berlin.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text">Découvrez la ville animée et pleine de contrastes de Berlin avec notre agence de voyage et explorez ses sites historiques, sa scène artistique dynamique et sa vie nocturne animée.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/fuvahmulah.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, Maldives
+                            </span>
+                            <div>
+                                <p class = "text">Découvrez la beauté préservée de Fuvahmulah, l'île la plus méridionale des Maldives, avec notre agence de voyage et plongez dans une oasis de tranquillité, de nature et de culture.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/Sousse.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Sousse, Tunisia
+                            </span>
+                            <div>
+                                <p class = "text">Explorez la beauté historique de Sousse, une ville portuaire tunisienne riche en patrimoine culturel, en architecture et en plages ensoleillées</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/rome.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Partez à la découverte de la ville éternelle avec notre agence de voyage et plongez dans l'histoire et la culture fascinantes de Rome</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/tabarka.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Tabarka, Tunisia
+                            </span>
+                            <div>
+                                <p class = "text">Découvrez les plages de sable blanc, les eaux cristallines et les paysages montagneux pittoresques de Tabarka, une destination balnéaire idyllique au nord-ouest de la Tunisie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">know about services that we offer</span>
+                    <h2 class = "lg-title">Our services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Luxurious Hotel</h3>
+                        <p class = "text">Nous avons sélectionné pour vous les meilleurs hôtels de chaque destination pour vous offrir un séjour confortable et agréable.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Travel Guide</h3>
+                        <p class = "text">Nos guides de voyage expérimentés sont là pour vous aider à planifier votre itinéraire et à découvrir les meilleurs endroits de chaque destination.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3>Suitable Price</h3>
+                        <p class = "text">Nous offrons des tarifs compétitifs pour nos offres de voyage afin de vous offrir le meilleur rapport qualité-prix pour votre expérience de voyage.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">what our clients say about us</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">"J'ai réservé un voyage avec TuniTravel. Leur service était excellent et ils ont tout organisé pour moi, du logement aux activités. Je recommande vivement cette agence de voyage."</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Alexander Müller</h3>
+                                <p class = "text">Trip to Sousse</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"J'ai été impressionné par l'équipe de conseillers en voyage de TuniTravel. Ils ont créé un itinéraire personnalisé qui correspondait parfaitement à mes besoins. Les hôtels et les activités sélectionnés étaient de qualité supérieure. Je recommande fortement cette agence de voyage."</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Maxime Lopez</h3>
+                                <p class = "text">Trip to Hawaï</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"Nous avons réservé notre lune de miel avec TuniTravel et leur service était excellent. Ils ont créé un itinéraire personnalisé pour nous, en prenant en charge tous les détails. Nous avons passé un moment merveilleux et nous avons hâte de réserver notre prochain voyage avec eux."</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Emma Stones</h3>
+                                <p class = "text">Trip to Djerba</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = "videos/video-section.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        
+
+
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Tuni<span>Travel</span>
+                    </a>
+                    <p class = "text">Notre équipe de conseillers en voyage expérimentés est là pour vous aider à planifier votre itinéraire de voyage idéal et vous offrir des conseils et des recommandations pour tirer le meilleur parti de votre voyage.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">Djerba</a></li>
+                        <li><a href = "#">Sousse</a></li>
+                        <li><a href = "#">Tozeur</a></li>
+                        <li><a href = "#">El jem</a></li>
+                        <li><a href = "#">Tabarka</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        
+
+        <script src = "js/script.js"></script>
+        <script>
+            
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
